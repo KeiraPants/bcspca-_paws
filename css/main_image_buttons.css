@@ -1,0 +1,133 @@
+#buttons {
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: 80px;
+    padding:0;
+    margin:0 auto;
+}
+
+.bttn {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 33px;
+    text-shadow: 2px 3px 2px rgba(150, 150, 150, 1);
+
+
+}
+
+.bttn:hover, .bttn:focus {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.orange {
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: rgba(225, 183, 39, 0.9);
+    height: 78px;
+    width: 223px;
+}
+
+.green {
+    padding-top: 30px;
+    background-color: rgba(97, 162, 60, 0.9);
+    width: 274px;
+    height: 97px;
+}
+
+.orange, .green {
+    border-radius: 7px;
+    -webkit-box-shadow: 6px 6px 6px 1px rgba(0,0,0,0.38);
+    -moz-box-shadow: 6px 6px 6px 1px rgba(0,0,0,0.38);
+    box-shadow: 6px 6px 6px 1px rgba(0,0,0,0.38);
+}
+
+#share {
+margin-right: -20px;
+}
+
+#don {
+    margin-left: 23px;
+}
+
+#reg {
+
+}
+
+#sha {
+    margin-left: 51px;
+}
+
+
+@media (ax-width: 760px) {
+
+    #buttons {
+        position: static;
+    }
+
+    #don {
+        margin-left: -80px;
+    }
+
+    #reg {
+        margin-left: 0;
+    }
+
+    #sha {
+        margin-left: 32px;
+
+    }
+}
+
+@media (max-width: 991px) {
+    .bttn {
+        font-size: 25px;
+    }
+
+    #donate, #share {
+        height:60px;
+        width: 120px;
+    }
+
+    #register {
+        height: 75px;
+        width: 160px;
+
+    }
+
+    .orange {
+        padding-top: 12px;
+    }
+    .green {
+        padding-top: 22px;
+    }
+
+    #don {
+        margin-left: 77px;
+    }
+
+    #reg {
+        margin-left: -5px;
+    }
+
+    #sha {
+        margin-left: 32px;
+
+    }
+
+
+}
+
+@media (max-width: 1372px) {
+    .oheight {
+        height:100%;
+    }
+
+    .register-button {
+        width: 183px;
+    }
+
+
+}

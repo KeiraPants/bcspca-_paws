@@ -1,0 +1,36 @@
+#footer-wrap {
+    min-height: 305px;
+    background-color: #002d72;
+    color: #ffffff;
+
+}
+
+.title {
+    text-align: left;
+    font-size: 36px;
+}
+
+#footer-wrap ul {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+
+}
+
+
+#footer-wrap li a {
+    color:#ffffff ;
+    padding-left: 0;
+    line-height: .5;
+}
+
+#footer-wrap li a:hover {
+    background: none;
+}
+
+@media (max-width: 767px) {
+    #footer-wrap {
+        text-align: center;
+    }
+}

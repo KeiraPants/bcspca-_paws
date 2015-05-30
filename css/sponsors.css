@@ -1,0 +1,105 @@
+#sponsors-wrap {
+    text-align: center;
+    padding-bottom: 100;
+    border-bottom: 1px solid #b2b2b2;
+    min-height: 400px;
+}
+
+#sponsors {
+
+}
+
+#sponsors > h2 {
+    padding-bottom: 65px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
+#scotia img {
+    height: 75px;
+
+}
+
+#ctv-logo {
+    padding-top:15px;
+    padding-left: 30px;
+}
+
+#ctv-logo img {
+    height: 55px;
+}
+
+#pwc {
+    padding-top: 11px;
+    padding-right: 0;
+}
+
+#pwc img {
+    height: 74px;
+    
+}
+
+#tv_week {
+    padding-top:15px;
+    padding-left: 0;
+}
+
+#tv_week img {
+    height: 50px;
+
+}
+
+.col-md-3 {
+    background-color: transparent;
+}
+
+@media (max-width: 767px) {
+
+
+    #sponsors > h2 {
+        padding-bottom: 60px;
+    }
+
+    #scotia {
+        padding-bottom: ;
+    }
+
+    #ctv-logo {
+        margin-top: 10px;
+
+    }
+
+    #pwc {
+        margin-top: 45px;
+
+    }
+
+    #tv_week {
+        margin-top:30px;
+        padding-bottom: 100px;
+
+    }
+
+
+
+    .logos-1{
+        height: 68px;
+    }
+
+    .logos-2 {
+        height: 36px;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+    #sponsors > h2 {
+        padding-bottom: 50px;
+    }
+
+    #tv_week {
+        padding-bottom: 70px;
+    }
+}

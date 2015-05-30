@@ -1,0 +1,19 @@
+#intro-wrap {
+    position: static;
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+
+}
+
+#intro {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.section-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 37px;
+    text-transform: uppercase;
+}
