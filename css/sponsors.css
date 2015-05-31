@@ -1,6 +1,6 @@
 #sponsors-wrap {
     text-align: center;
-    padding-bottom: 100;
+    padding-bottom: 100px;
     border-bottom: 1px solid #b2b2b2;
     min-height: 400px;
 }
@@ -10,10 +10,7 @@
 }
 
 #sponsors > h2 {
-    padding-bottom: 65px;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 2%;
+    padding: 2% 3% 65px;
 }
 
 #scotia img {
@@ -62,7 +59,11 @@
     }
 
     #scotia {
-        padding-bottom: ;
+        padding-left: -15px;
+    }
+
+    #scotia img {
+        max-width: 380px;
     }
 
     #ctv-logo {

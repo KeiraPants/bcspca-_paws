@@ -10,8 +10,9 @@ body, p{
 
 #navbar-wrap {
     background-color: #002d72;
-    position: static;
+    position: relative;
     width: 100%;
+    z-index: 2;
 }
 
 .container {

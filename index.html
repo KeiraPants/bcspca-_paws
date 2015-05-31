@@ -72,7 +72,8 @@
                         </li>
 
                         <li id="login">
-                            <a class="navbar-brand" id="login-img" href="#"><span class="link-name">Login</span><img src="images/login_button.png"/></a>
+                            <a class="navbar-brand" id="login-img" href="#"><span class="link-name">Login</span><img
+                                    src="images/login_button.png"/></a>
                         </li>
                     </ul>
 
@@ -86,57 +87,89 @@
     </div>
 </header>
 
-<!-- main-image -->
-<div id="main-image-wrap>">
-    <div class="container">
-        <div class="row" id="main-image">
-            <div class="col-md-12">
-                <img class="iwidth" src="images/main_image.png">
-            </div>
+<!-- carousel -->
+<div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/main_image.png" class="img-responsive">
 
-            <!-- image_text -->
-            <div class="image-text">
-                <h2 class="register">Register Today and<br> Make a Difference!</h2>
-            </div>
-            <!-- image_text -->
-
-            <!-- main_image_buttons -->
-
-
-            <div id="main_image_buttons_wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-9 col-md-12" id="buttons">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 class="register">Register Today and<br> Make a Difference!</h1>
 
 
-                            <div class="col-sx-2 col-sm-3 col-md-3 oheight" id="don">
-                                <a class="bttn donate" href="#">
-                                    <div class=" orange" id="donate">Donate</div>
-                                </a>
-                            </div>
+                    <p></p>
 
-                            <div class="col-sx-3 col-sm-3 col-md-3 gheight" id="reg">
-                                <a class="bttn register-button" href="#">
-                                    <div class=" green" id="register">Register</div>
-                                </a>
-                            </div>
-
-                            <div class="col-sx-2 col-sm-3 col-md-3 oheight" id="sha">
-                                <a class="bttn share" href="#">
-                                    <div class=" orange" id="share">Share</div>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
                 </div>
             </div>
-
         </div>
+        <div class="item">
+            <img src="images/nature-house.jpg" class="img-responsive">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1></h1>
+
+                    <p></p>
+
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/green-nature-trees-and-lake.jpg" class="img-responsive">
+
+            <div class="container">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+
+
+<!-- /.main_image_buttons -->
+<div id="main_image_buttons_wrap">
+    <div class="container">
+                <span class="col-sx-9 col-sm-9 col-md-12" id="buttons">
+
+
+                    <span class="col-sx-3 col-sm-3 col-md-3 oheight" id="don">
+                        <a class="bttn donate" href="#">
+                            <div class=" orange" id="donate">Donate</div>
+                        </a>
+                    </span>
+
+                    <span class="col-sx-3 col-sm-3 col-md-3 gheight" id="reg">
+                        <a class="bttn register-button" href="#">
+                            <div class=" green" id="register">Register</div>
+                        </a>
+                    </span>
+
+                    <span class="col-sx-3 col-sm-3 col-md-3 oheight" id="sha">
+                        <a class="bttn share" href="#">
+                            <div class=" orange" id="share">Share</div>
+                        </a>
+                    </span>
+
+                </span>
     </div>
 </div>
 <!-- /.main_image_buttons -->
-</div>
+
 
 <!-- /main-image -->
 
@@ -169,13 +202,12 @@
 <!-- infographic -->
 <div id="infographic-wrap">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12" id="infographic">
-                <img class="iwidth" src="images/infographic.png">
-            </div>
+        <div class="col-md-12" id="infographic">
+            <img class="iwidth" src="images/infographic.png">
         </div>
     </div>
 </div>
+
 <!-- /infographic -->
 
 
@@ -197,109 +229,107 @@
 <!-- sponsors -->
 <div id="sponsors-wrap">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12" id="sponsors">
+        <div class="col-md-12 col-sm-12 col-md-12 nopr" id="sponsors">
 
-                <h2 class="section-heading" id="sponsers-heading">Our Sponsers</h2>
+            <h2 class="section-heading" id="sponsers-heading">Our Sponsers</h2>
 
-                <div class="col-sx-12 col-sm-12 col-md-5 logos-1" id="scotia">
-                    <a href="#"><img src="images/scotiabank.png"></a>
-                </div>
+            <div class="col-sx-12 col-sm-12 col-md-5 logos-1" id="scotia">
+                <a href="#"><img src="images/scotiabank.png"></a>
+            </div>
 
-                <div class="col-sx-12 col-sm-12 col-md-2 logos-2" id="ctv-logo">
-                    <a href="#"><img src="images/ctv.png">
-                    </a>
-                </div>
+            <div class="col-sx-12 col-sm-12 col-md-2 logos-2" id="ctv-logo">
+                <a href="#"><img src="images/ctv.png">
+                </a>
+            </div>
 
-                <div class="col-sx-12 col-sm-12 col-md-2 logos-1" id="pwc">
-                    <a href="#"><img src="images/pwc.png">
-                    </a>
-                </div>
+            <div class="col-sx-12 col-sm-12 col-md-2 logos-1" id="pwc">
+                <a href="#"><img src="images/pwc.png">
+                </a>
+            </div>
 
-                <div class="col-sx-12 col-sm-12 col-md-3 logos-2" id="tv_week">
-                    <a href="#"><img src="images/tv_week.png">
-                    </a>
-                </div>
+            <div class="col-sx-12 col-sm-12 col-md-3 logos-2" id="tv_week">
+                <a href="#"><img src="images/tv_week.png">
+                </a>
             </div>
         </div>
     </div>
 </div>
+
 <!-- /sponsors -->
 
 <!-- footer -->
 <div id="footer-wrap">
     <div class="container" id="footer">
 
-        <div class="row">
-            <div class="col-sm-12 col-md-12">
+        <div class="col-sx-12 col-sm-12 col-md-12 nopr">
 
-                <div class="col-sx-12 col-sm-4 col-md-4">
+            <div class="col-sx-12 col-sm-4 col-md-4">
 
-                    <div id="footerlinks">
-                        <h2 class="section-heading title">Get Involved</h2>
-                        <ul class="nav footer-nav">
+                <div>
+                    <h2 class="section-heading title">Get Involved</h2>
+                    <ul class="nav footer-nav">
 
-                            <li><a href="#">Register</a></li>
+                        <li><a href="#">Register</a></li>
 
-                            <li><a href="#">Find A Participant</a></li>
+                        <li><a href="#">Find A Participant</a></li>
 
-                            <li><a href="#">Donate</a></li>
+                        <li><a href="#">Donate</a></li>
 
-                            <li><a href="#">Media</a></li>
+                        <li><a href="#">Media</a></li>
 
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
+            </div>
 
 
-                <div class="col-sx-12 col-sm-4 col-md-4">
+            <div class="col-sx-12 col-sm-4 col-md-4">
 
-                    <div id="footerlinks">
-                        <h2 class="section-heading title">Site Map</h2>
+                <div>
+                    <h2 class="section-heading title">Site Map</h2>
 
-                        <ul class="nav footer-nav">
+                    <ul class="nav footer-nav">
 
-                            <li><a href="#">Nav Item 1</a></li>
+                        <li><a href="#">Nav Item 1</a></li>
 
-                            <li><a href="#">Nav Item 2</a></li>
+                        <li><a href="#">Nav Item 2</a></li>
 
-                            <li><a href="#">Nav Item 3</a></li>
+                        <li><a href="#">Nav Item 3</a></li>
 
-                            <li><a href="#">Nav Item 4</a></li>
+                        <li><a href="#">Nav Item 4</a></li>
 
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
+            </div>
 
-                <div class="col-sx-12 col-sm-4 col-md-4" id="learnf">
+            <div class="col-sx-12 col-sm-4 col-md-4" id="learnf">
 
-                    <div id="footerlinks">
-                        <h2 class="section-heading title">Contact Us</h2>
+                <div>
+                    <h2 class="section-heading title">Contact Us</h2>
 
-                        <ul class="nav footer-nav ">
+                    <ul class="nav footer-nav ">
 
 
-                            <li>123 Fake Street</li>
+                        <li>123 Fake Street</li>
 
-                            <li>Anytown, BC</li>
+                        <li>Anytown, BC</li>
 
-                            <li>Dementia Resources</li>
+                        <li>Dementia Resources</li>
 
-                            <li>1A2 B3C</li>
+                        <li>1A2 B3C</li>
 
-                            <li><a href="#">Email@bcspca.ca</a></li>
+                        <li><a href="#">Email@bcspca.ca</a></li>
 
-                            <li>1-800-WE-LOVEU</li>
+                        <li>1-800-WE-LOVEU</li>
 
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-
             </div>
 
         </div>
+
     </div>
 </div>
+
 
 <!-- /footer -->
 

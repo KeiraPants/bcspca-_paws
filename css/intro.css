@@ -1,8 +1,10 @@
 #intro-wrap {
-    position: static;
+    position: relative;
     background-color: #ffffff;
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 100px;
+    margin-top: -295px;
+    z-index: 3;
 
 
 }
@@ -16,4 +18,39 @@
     font-family: 'Oswald', sans-serif;
     font-size: 37px;
     text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    #intro-wrap {
+        margin-top: -100px;
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    #intro-wrap {
+        margin-top: -100px;
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    #intro-wrap {
+        margin-top: -100px;
+        padding-top: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #intro-wrap {
+        margin-top: -195px;
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #intro-wrap {
+        margin-top: -325px;
+        padding-top: 70px;
+    }
 }
