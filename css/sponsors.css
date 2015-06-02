@@ -64,6 +64,8 @@
 
     #scotia img {
         max-width: 380px;
+        width: 100%;
+        height: auto;
     }
 
     #ctv-logo {
