@@ -66,6 +66,7 @@
         max-width: 380px;
         width: 100%;
         height: auto;
+
     }
 
     #ctv-logo {
@@ -104,5 +105,15 @@
 
     #tv_week {
         padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #ctv-logo {
+        padding-left: 40px;
+    }
+
+    #pwc img {
+        padding-left: 25px;
     }
 }
